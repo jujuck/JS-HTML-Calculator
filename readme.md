@@ -20,7 +20,7 @@ innerText = valeur1 + " " + operator + " " valeur2
 !!! Utilise un `getElementById()` et un `literal String` si tu veux.
 Maintenant, appelle cette fonction à la fin des fonctions `addValue(num)` et `addOperator()`
 
-Si tout se passe bien, tu dois pouvoir voir ton affichage se mettre à jour à chaque nouvelle entrée... Console
+Si tout se passe bien, tu dois pouvoir voir ton affichage se mettre à jour à chaque nouvelle entrée...
 
 # Passons maintenant au calcul
 Hep, hep, mais on a déjà fait cette partie là, avec un `switch`... Alors let's go.
