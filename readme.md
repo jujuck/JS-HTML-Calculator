@@ -6,7 +6,7 @@ git clone le workshop et suit les étapes... a chacune d'elles, retrouvent le co
 2/ Passez la valeur numérique du <td> en arguments et la récupérer dans la fonction `addValue(num)`. Console logger la valeur récupérée.
 3/ Créer plusieurs variables pour mémoriser les données et les étapes (valeur1 = "", valeur2 = "", opérateur = "", step1 = true) avec un scope globale (`let`)
 4/ Dans un premier temps, la fonction `addValue()` permet de concaténer le chiffre cliqué à la valeur1 (Les valeurs récupérées sont au format `string` et doivent le rester à cette étape);
-5/ Créer une fonction `addOperator(operotor)` pour mémoriser l'opérateur. Puis dans la même fonction, passez votre variable `step1` à `false` (Cela nous permet de passer en mémorisation de la valeur 2);
+5/ Créer une fonction `addOperator(operotor)` pour mémoriser l'opérateur. Ajouter son appel aux différents <td> du *index.html* en y ajoutant l'opérant. Puis dans la même fonction, passez votre variable `step1` à `false` (Cela nous permet de passer en mémorisation de la valeur 2);
 6/ Dans votre fonction `addValue(num)`, mettre en place une condition (`if ... else`). Si step1 est à `true`, je concaténe `valeur1`, sinon je concatène `valeur2`
 
 C'est fait, je mémorise maintenant les valeurs nécéssaire à mon calcul..
