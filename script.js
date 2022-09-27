@@ -51,10 +51,10 @@ const calcul = () => {
 }
 
 const fullReset = () => {
-  console.log("full reset asked");
   value1 = "";
   value2 = "";
   operator = "";
   step1 = true;
   display = "";
+  updateDisplay();
 }
