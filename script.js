@@ -1,3 +1,3 @@
-const addValue = () => {
-  console.log("OK");
+const addValue = (num) => {
+  console.log(num);
 };
