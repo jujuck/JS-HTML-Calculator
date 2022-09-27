@@ -22,27 +22,30 @@ const addOperator = (operand) => {
   updateDisplay();
 }
 
-const updateDisplay = () => {
-  document.getElementById("result").innerText = `${value1} ${operator} ${value2}`
+const updateDisplay = (result) => {
+  if (result) {
+    document.getElementById("result").innerText = `${value1} ${operator} ${value2} = ${result}`;
+  } else {
+    document.getElementById("result").innerText = `${value1} ${operator} ${value2}`;
+  }
+
 }
 
 const calcul = () => {
-  let myCalcul;
   switch (operator) {
     case "+":
-      myCalcul = parseInt(value1) + parseInt(value2);
+      updateDisplay(parseInt(value1) + parseInt(value2));
       break;
     case "-":
-      myCalcul = parseInt(value1) - parseInt(value2);
+      updateDisplay(parseInt(value1) - parseInt(value2));
       break;
     case "/":
-      myCalcul = parseInt(value1) / parseInt(value2);
+      updateDisplay(parseInt(value1) / parseInt(value2));
       break;
     case "*":
-      myCalcul = parseInt(value1) * parseInt(value2);
+      updateDisplay(parseInt(value1) * parseInt(value2));
       break;
     default:
       return ("Invalid Operator");
   };
-  console.log(myCalcul);
 }
