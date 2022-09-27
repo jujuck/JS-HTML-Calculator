@@ -7,3 +7,9 @@ const addValue = (num) => {
   value1 = value1 + num;
   console.log(value1);
 };
+
+const addOperator = (operand) => {
+  operator = operand;
+  console.log(operator);
+  step1 = false;
+}
