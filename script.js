@@ -4,5 +4,6 @@ let operator = "";
 let step1 = true;
 
 const addValue = (num) => {
-  console.log(num);
+  value1 = value1 + num;
+  console.log(value1);
 };
