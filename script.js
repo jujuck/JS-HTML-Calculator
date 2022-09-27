@@ -4,8 +4,13 @@ let operator = "";
 let step1 = true;
 
 const addValue = (num) => {
-  value1 = value1 + num;
-  console.log(value1);
+  if (step1) {
+    value1 = value1 + num;
+    console.log(value1);
+  } else {
+    value2 = value2 + num;
+    console.log(value2);
+  }
 };
 
 const addOperator = (operand) => {
