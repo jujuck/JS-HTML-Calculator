@@ -1,1 +1,3 @@
-console.log("Hello World")
+const addValue = () => {
+  console.log("OK");
+};
