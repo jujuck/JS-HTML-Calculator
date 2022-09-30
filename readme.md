@@ -1,8 +1,9 @@
 ## L'objectif de l'exercice est de mettre en place une interface graphique pour notre workshop calculatrice en console
-git clone le workshop et suit les étapes... a chacune d'elles, retrouvent le commit correspondant aux codes de correction pour ne pas être bloqué... Mais pense à joure le jeu, chercher par soi même est la seule vraie façon de progresser
+git clone le workshop et suit les étapes... a chacune d'elles, retrouvent le commit correspondant aux codes de correction pour ne pas être bloqué... Mais pense à jouer le jeu, chercher par soi même est la seule vraie façon de progresser
+Tu peux t'aider de la vidéo (https://drive.google.com/file/d/1R9mxmhlJ2EeL8q8p31qoCcpYYeAyCilh/view?usp=sharing)
 
 ## Etapes
-- 1/ Créer une fonction `addValue()` dans votre *script.js* affichant un `console.log('OK')` et mettez un place son appel sur les <td> ayant une valeur numérique via l'ttribut `onclick=...`. 
+- 1/ Créer une fonction `addValue()` dans votre *script.js* affichant un `console.log('OK')` et mettez un place son appel sur les <td> ayant une valeur numérique via l'attribut `onclick=...`. 
 - 2/ Passez la valeur numérique du <td> en arguments et la récupérer dans la fonction `addValue(num)`. Console logger la valeur récupérée.
 3/ Créer plusieurs variables pour mémoriser les données et les étapes (valeur1 = "", valeur2 = "", opérateur = "", step1 = true) avec un scope globale (`let`)
 - 4/ Dans un premier temps, la fonction `addValue()` permet de concaténer le chiffre cliqué à la valeur1 (Les valeurs récupérées sont au format `string` et doivent le rester à cette étape);
