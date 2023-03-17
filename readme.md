@@ -25,7 +25,7 @@ Si tout se passe bien, tu dois pouvoir voir ton affichage se mettre à jour à c
 # Passons maintenant au calcul
 Hep, hep, mais on a déjà fait cette partie là, avec un `switch`... Alors let's go.
 Récupère ton code de l'atelier "Introduction au JS"
-
+- 1/ Créer une fonction de `calcu()` en `if...else` ou `switch` pour calculer le résultat. Pense à l'implémenter au `onclick` de la touche *=*
 - 2/ Appelle la fonction `addValue(result)` en lui passant le résultat en arguments
 - 3/ Modifie la fonction `addValue(result)` pour qu'elle accepte `result` comme argument. Si le `result` est définie (Check it), alors ajoute on fait :
 ```
