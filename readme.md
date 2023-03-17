@@ -3,7 +3,7 @@ git clone le workshop et suit les étapes... a chacune d'elles, retrouvent le co
 
 ## Etapes
 - 1/ Créer une fonction `addValue()` dans votre *script.js* affichant un `console.log('OK')` et mettez un place son appel sur les <td> ayant une valeur numérique via l'ttribut `onclick=...`. 
-- 2/ Passez la valeur numérique du <td> en arguments et la récupérer dans la fonction `addValue(num)`. Console logger la valeur récupérée.
+- 2/ Passez la valeur numérique du `<td>` en arguments et la récupérer dans la fonction `addValue(num)`. Console logger la valeur récupérée.
 - 3/ Créer plusieurs variables pour mémoriser les données et les étapes (valeur1 = "", valeur2 = "", opérateur = "", step1 = true) avec un scope globale (`let`)
 - 4/ Dans un premier temps, la fonction `addValue()` permet de concaténer le chiffre cliqué à la valeur1 (Les valeurs récupérées sont au format `string` et doivent le rester à cette étape);
 - 5/ Créer une fonction `addOperator(operotor)` pour mémoriser l'opérateur. Puis dans la même fonction, passez votre variable `step1` à `false` (Cela nous permet de passer en mémorisation de la valeur 2);
