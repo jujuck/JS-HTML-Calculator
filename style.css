@@ -1,3 +1,9 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 h1 {
   text-align: center;
   font-size: 3rem;
@@ -6,24 +12,54 @@ h1 {
 
 table {
   margin: auto;
+  padding: 0.5rem;
   min-width: 350px;
   min-height: 350px;
-  border: 1px solid gray;
   border-radius: 1rem;
+  border-spacing: 10px;
+  background: rgb(59, 161, 254);
+  background: linear-gradient(
+    124deg,
+    rgba(59, 161, 254, 1) 70%,
+    rgba(69, 137, 199) 30%
+  );
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 tr {
   padding: 2%;
 }
 
+tr td:last-child {
+  background-color: rgb(243, 81, 81);
+  color: white;
+  font-size: 25px;
+}
+
+tr:last-child td:nth-child(2),
+tr:last-child td:nth-child(3) {
+  background-color: orange;
+}
+
 td {
   text-align: center;
-  background-color: lightgray;
+  background-color: white;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 td:hover {
-  box-shadow: 0px 0px 15px 0px #000000;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -3px 0px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px 2px 4px inset;
+}
+
+tr:first-child td {
+  background-color: rgb(153, 158, 144);
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -3px 0px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px 2px 4px inset;
 }
 
 .result {
